@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodProblems", "MethodProblems\MethodProblems.csproj", "{7F9703EA-F7B2-4805-A8D5-21F51C096A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3Furniture", "Ch3Furniture\Ch3Furniture.csproj", "{93FB2DE5-7064-48F7-8EAB-B901F2C18588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F9703EA-F7B2-4805-A8D5-21F51C096A49}.Debug|x86.ActiveCfg = Debug|x86
+		{7F9703EA-F7B2-4805-A8D5-21F51C096A49}.Debug|x86.Build.0 = Debug|x86
+		{7F9703EA-F7B2-4805-A8D5-21F51C096A49}.Release|x86.ActiveCfg = Release|x86
+		{7F9703EA-F7B2-4805-A8D5-21F51C096A49}.Release|x86.Build.0 = Release|x86
+		{93FB2DE5-7064-48F7-8EAB-B901F2C18588}.Debug|x86.ActiveCfg = Debug|x86
+		{93FB2DE5-7064-48F7-8EAB-B901F2C18588}.Debug|x86.Build.0 = Debug|x86
+		{93FB2DE5-7064-48F7-8EAB-B901F2C18588}.Release|x86.ActiveCfg = Release|x86
+		{93FB2DE5-7064-48F7-8EAB-B901F2C18588}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
