@@ -29,20 +29,10 @@ namespace Ch3Furniture
                 Console.WriteLine("Price is $310");
             }
 
-            if (input != "P")
+            if (input != "P" && input != "O" && input != "M")
             {
                 Console.WriteLine("Price is $0");
-            }
-
-            if (input != "O")
-            {
-                Console.WriteLine("Price is $0");
-            }
-
-            if (input != "M")
-            {
-                Console.WriteLine("Price is $0");
-            }
+            } 
         }
     }
 }
