@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{190FE82C-A207-4D5E-8BA4-BE7E33B13FDD}</ProjectGuid>
+    <ProjectGuid>{84F3D10C-F50B-4B34-B2AC-08507754D8B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ch5Automobile</RootNamespace>
-    <AssemblyName>Ch5Automobile</AssemblyName>
+    <RootNamespace>Ch6Monogram</RootNamespace>
+    <AssemblyName>Ch6Monogram</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commission.cs" />
+    <Compile Include="Monogram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
