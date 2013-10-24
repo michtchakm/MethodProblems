@@ -7,23 +7,28 @@ namespace Ch6Exponent
 {
     class Exponent
     {
-        int number;
-
-        public static void SquareNumber(int Number);
+       
+        public static void Main()
         {
-            Console.WriteLine("{0}", int Number^2)
+            int Number = 0;
+        string input;
+        Console.WriteLine("Enter an integer");
+             input = Console.ReadLine();
+             Number = Convert.ToInt32(input);
+            SquareNumber(Number);
+            CubeNumber(Number);   
+        }
+        
+        
+        public static void SquareNumber(int Number)
+        {
+            Console.WriteLine("{0}", Number * Number);
         }
 
-        public static void CubeNumber(int Number);
+        public static void CubeNumber(int Number)
         {
-            Console.WriteLine("{1}", int Number^3)
+            Console.WriteLine("{0}", Number * Number * Number);
         }
 
-        public static void Main();
-        {
-            Console.WriteLine("Enter an integer")
-            int Number = Console.ReadLine();
-            SquareNumber("
-            CubeNumber("           
     }
 }
